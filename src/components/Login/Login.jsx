@@ -17,8 +17,8 @@ const Login = () => {
         // </div>
         // Daisy UI tailwind - Login Hero Start-----------
         <div className="hero min-h-screen bg-base-200">
-            <div className="hero-content flex-col lg:flex-row-reverse">
-                <div className="text-center lg:text-left">
+            <div className="hero-content flex-col">
+                <div className="text-center ">
                     <h1 className="text-5xl font-bold">Please Login</h1>
 
                 </div>
@@ -45,9 +45,12 @@ const Login = () => {
                         </div>
                     </form>
 
-                    <Link to="/register">
-                        <button className="btn btn-link">Register to Auth Master</button>
-                    </Link>
+                    <section className='mb-4 ml-8'>
+                        <Link to="/register" className="label-text-alt link link-hover">
+                            New to Auth Master? Please Register 
+                        </Link>
+                    </section>
+
                 </div>
             </div>
         </div>

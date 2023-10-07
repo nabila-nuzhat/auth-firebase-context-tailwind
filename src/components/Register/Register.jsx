@@ -19,7 +19,7 @@ const Register = () => {
 
         // Daisy UI tailwind - Login Hero Start-----------
         <div className="hero min-h-screen bg-base-200">
-            <div className="hero-content flex-col lg:flex-row-reverse">
+            <div className="hero-content flex-col">
                 <div className="text-center lg:text-left">
                     <h1 className="text-5xl font-bold">Please Register</h1>
                     
