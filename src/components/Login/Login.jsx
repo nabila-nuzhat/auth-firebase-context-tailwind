@@ -20,6 +20,8 @@ const Login = () => {
         .then(result => {
             const loggedUser = result.user;
             console.log(loggedUser);
+        // module 60-7
+            form.reset();
         })
         .catch(error => {
             console.log(error);
